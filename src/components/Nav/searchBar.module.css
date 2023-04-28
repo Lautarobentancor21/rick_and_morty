@@ -1,0 +1,29 @@
+.searchContainer{
+    display: flex;
+    align-items: center;
+    gap: .5rem;  
+}
+.searchContainer-input{
+    border: 2px #0CCD12 solid;
+    border-radius: 5px;
+    background-color: #BCDDBC;
+    text-align: center;
+    width: 18rem;
+    height: 2rem;
+}
+.searchContainer-button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#626D62;
+    color: white;
+    border: 2px #0CCD12 solid;
+    font-weight: bold;
+    height: 2rem;
+}
+.searchContainer-button:hover{
+    background-color: #ED3CF0;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #000;
+    border: 2px #000 solid;
+}
